@@ -1040,16 +1040,16 @@ function loadDemo() {
   const now = new Date();
   const m = (n) => { const d=new Date(now); d.setMonth(d.getMonth()-n); return d.toISOString().slice(0,10); };
   logs = {
-    l1:{reagentId:'d1',reagentName:'염산 (HCl)',        date:m(0), used:'30mL', user:'김용조',exp:'산-염기 중화 적정',  class:'2-3',waste:'중화 후 폐기'},
-    l2:{reagentId:'d3',reagentName:'페놀프탈레인',       date:m(0), used:'2mL',  user:'김용조',exp:'산-염기 중화 적정',  class:'2-3',waste:'폐액통 수거'},
-    l3:{reagentId:'d6',reagentName:'과산화수소 (H₂O₂)', date:m(0), used:'50mL', user:'김동현',exp:'산소 발생 실험',      class:'1-1',waste:'폐액통 수거',note:'거품 다량'},
-    l4:{reagentId:'d4',reagentName:'에탄올',             date:m(1), used:'200mL',user:'김용조',exp:'크로마토그래피',     class:'1-2',waste:'폐액통 수거'},
-    l5:{reagentId:'d2',reagentName:'수산화나트륨 (NaOH)',date:m(1), used:'20g',  user:'김용조',exp:'비누 제조 실험',      class:'2-1',waste:'중화 후 폐기'},
-    l6:{reagentId:'d1',reagentName:'염산 (HCl)',         date:m(2), used:'25mL', user:'김동현',exp:'금속 반응성 비교',   class:'1-3',waste:'중화 후 폐기'},
-    l7:{reagentId:'d8',reagentName:'옥살산 표준용액',    date:m(2), used:'50mL', user:'김용조',exp:'산화-환원 적정',     class:'2-2',waste:'폐액통 수거'},
-    l8:{reagentId:'d5',reagentName:'황산구리 (II)',       date:m(3), used:'10g',  user:'김동현',exp:'전기 분해 실험',     class:'2-3',waste:'폐액통 수거'},
-    l9:{reagentId:'d1',reagentName:'염산 (HCl)',         date:m(4), used:'40mL', user:'김용조',exp:'금속 이온 검출',     class:'1-1',waste:'중화 후 폐기'},
-    l10:{reagentId:'d3',reagentName:'페놀프탈레인',      date:m(5), used:'3mL',  user:'김용조',exp:'pH 측정 실험',       class:'1-2',waste:'폐액통 수거'},
+    l1:{reagentId:'d1',reagentName:'염산 (HCl)',        date:m(0), used:'30mL', user:'문형기',exp:'산-염기 중화 적정',  class:'2-3',waste:'중화 후 폐기'},
+    l2:{reagentId:'d3',reagentName:'페놀프탈레인',       date:m(0), used:'2mL',  user:'문형기',exp:'산-염기 중화 적정',  class:'2-3',waste:'폐액통 수거'},
+    l3:{reagentId:'d6',reagentName:'과산화수소 (H₂O₂)', date:m(0), used:'50mL', user:'문형기',exp:'산소 발생 실험',      class:'1-1',waste:'폐액통 수거',note:'거품 다량'},
+    l4:{reagentId:'d4',reagentName:'에탄올',             date:m(1), used:'200mL',user:'문형기',exp:'크로마토그래피',     class:'1-2',waste:'폐액통 수거'},
+    l5:{reagentId:'d2',reagentName:'수산화나트륨 (NaOH)',date:m(1), used:'20g',  user:'문형기',exp:'비누 제조 실험',      class:'2-1',waste:'중화 후 폐기'},
+    l6:{reagentId:'d1',reagentName:'염산 (HCl)',         date:m(2), used:'25mL', user:'문형기',exp:'금속 반응성 비교',   class:'1-3',waste:'중화 후 폐기'},
+    l7:{reagentId:'d8',reagentName:'옥살산 표준용액',    date:m(2), used:'50mL', user:'문형기',exp:'산화-환원 적정',     class:'2-2',waste:'폐액통 수거'},
+    l8:{reagentId:'d5',reagentName:'황산구리 (II)',       date:m(3), used:'10g',  user:'문형기',exp:'전기 분해 실험',     class:'2-3',waste:'폐액통 수거'},
+    l9:{reagentId:'d1',reagentName:'염산 (HCl)',         date:m(4), used:'40mL', user:'문형기',exp:'금속 이온 검출',     class:'1-1',waste:'중화 후 폐기'},
+    l10:{reagentId:'d3',reagentName:'페놀프탈레인',      date:m(5), used:'3mL',  user:'문형기',exp:'pH 측정 실험',       class:'1-2',waste:'폐액통 수거'},
   };
   onData(); onLogs();
 }
